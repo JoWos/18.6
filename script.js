@@ -31,3 +31,5 @@ var Counter = React.createClass({
 var element = React.createElement(Counter);
 ReactDOM.render(element, document.getElementById('app'));
 
+var el = React.createElement(Counter);
+ReactDOM.render(el, document.getElementById('app2'));
