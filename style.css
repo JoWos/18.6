@@ -1,15 +1,13 @@
-div {
+
+.wrapper {
     width: 150px;
+    height: 100px;
     margin: 20px auto;
     text-align: center;
     font-size: 45px;
     color: #31e03d;
     font-family: 'VT323', monospace;
     background-color: #e4e4e4;
-}
-
-.wrapper {
-    height: 100px;
 }
 
 .counter {
