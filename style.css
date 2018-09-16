@@ -1,8 +1,22 @@
 div {
-    width: 300px;
-    margin: 20px auto 0;
+    width: 150px;
+    margin: 20px auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
+    color: #31e03d;
+    font-family: 'VT323', monospace;
+    background-color: #e4e4e4;
+}
+
+.wrapper {
+    height: 100px;
+}
+
+.counter {
+    background-color: #3a4750;
+    height: 50px;
+    margin: 0;
+    padding: 5px 0;
 }
 
 button {
@@ -13,4 +27,13 @@ button {
     height: 30px;
     line-height: 30px;
     outline: none;
+    background-color:#1bb5ec;
+}
+
+button:active {
+    color: #ff004d;
+}
+
+button:hover {
+    cursor: pointer;
 }
